@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC50CEE522469F48000FD77A /* Catalogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50CEE422469F48000FD77A /* Catalogo.swift */; };
+		EC50CEE72246AF2D000FD77A /* Artigo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50CEE62246AF2D000FD77A /* Artigo.swift */; };
+		EC50CEE92246B0FF000FD77A /* Revista.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50CEE82246B0FF000FD77A /* Revista.swift */; };
+		EC50CEEB2246B1E4000FD77A /* Publicacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50CEEA2246B1E4000FD77A /* Publicacao.swift */; };
+		EC50CEEF2246BAB1000FD77A /* Imprimivel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50CEEE2246BAB1000FD77A /* Imprimivel.swift */; };
+		ECA70E762235766E00EF8541 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA70E752235766E00EF8541 /* main.swift */; };
+		ECA70E7D2235769500EF8541 /* Livro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA70E7C2235769500EF8541 /* Livro.swift */; };
+		ECA70E7F2235773700EF8541 /* Socio.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA70E7E2235773700EF8541 /* Socio.swift */; };
+		ECA70E8122358A3300EF8541 /* SocioVip.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA70E8022358A3300EF8541 /* SocioVip.swift */; };
+		ECA70E8322358B1E00EF8541 /* Exemplar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA70E8222358B1E00EF8541 /* Exemplar.swift */; };
+		ECA70E8722359EEE00EF8541 /* Emprestimo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA70E8622359EEE00EF8541 /* Emprestimo.swift */; };
+		ECA70E8922359FCD00EF8541 /* Biblioteca.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA70E8822359FCD00EF8541 /* Biblioteca.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECA70E702235766E00EF8541 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC50CEE422469F48000FD77A /* Catalogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalogo.swift; sourceTree = "<group>"; };
+		EC50CEE62246AF2D000FD77A /* Artigo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artigo.swift; sourceTree = "<group>"; };
+		EC50CEE82246B0FF000FD77A /* Revista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Revista.swift; sourceTree = "<group>"; };
+		EC50CEEA2246B1E4000FD77A /* Publicacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publicacao.swift; sourceTree = "<group>"; };
+		EC50CEEE2246BAB1000FD77A /* Imprimivel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imprimivel.swift; sourceTree = "<group>"; };
+		ECA70E722235766E00EF8541 /* Exercicio_biblioteca */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Exercicio_biblioteca; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA70E752235766E00EF8541 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ECA70E7C2235769500EF8541 /* Livro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livro.swift; sourceTree = "<group>"; };
+		ECA70E7E2235773700EF8541 /* Socio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socio.swift; sourceTree = "<group>"; };
+		ECA70E8022358A3300EF8541 /* SocioVip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocioVip.swift; sourceTree = "<group>"; };
+		ECA70E8222358B1E00EF8541 /* Exemplar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exemplar.swift; sourceTree = "<group>"; };
+		ECA70E8622359EEE00EF8541 /* Emprestimo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emprestimo.swift; sourceTree = "<group>"; };
+		ECA70E8822359FCD00EF8541 /* Biblioteca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biblioteca.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA70E6F2235766E00EF8541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA70E692235766E00EF8541 = {
+			isa = PBXGroup;
+			children = (
+				ECA70E742235766E00EF8541 /* Exercicio_biblioteca */,
+				ECA70E732235766E00EF8541 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA70E732235766E00EF8541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA70E722235766E00EF8541 /* Exercicio_biblioteca */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA70E742235766E00EF8541 /* Exercicio_biblioteca */ = {
+			isa = PBXGroup;
+			children = (
+				ECA70E752235766E00EF8541 /* main.swift */,
+				ECA70E7E2235773700EF8541 /* Socio.swift */,
+				ECA70E8022358A3300EF8541 /* SocioVip.swift */,
+				ECA70E8222358B1E00EF8541 /* Exemplar.swift */,
+				EC50CEE422469F48000FD77A /* Catalogo.swift */,
+				ECA70E8622359EEE00EF8541 /* Emprestimo.swift */,
+				ECA70E8822359FCD00EF8541 /* Biblioteca.swift */,
+				EC50CEE62246AF2D000FD77A /* Artigo.swift */,
+				EC50CEE82246B0FF000FD77A /* Revista.swift */,
+				ECA70E7C2235769500EF8541 /* Livro.swift */,
+				EC50CEEA2246B1E4000FD77A /* Publicacao.swift */,
+				EC50CEEE2246BAB1000FD77A /* Imprimivel.swift */,
+			);
+			path = Exercicio_biblioteca;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA70E712235766E00EF8541 /* Exercicio_biblioteca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA70E792235766E00EF8541 /* Build configuration list for PBXNativeTarget "Exercicio_biblioteca" */;
+			buildPhases = (
+				ECA70E6E2235766E00EF8541 /* Sources */,
+				ECA70E6F2235766E00EF8541 /* Frameworks */,
+				ECA70E702235766E00EF8541 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Exercicio_biblioteca;
+			productName = Exercicio_biblioteca;
+			productReference = ECA70E722235766E00EF8541 /* Exercicio_biblioteca */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA70E6A2235766E00EF8541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Lázaro Lima dos Santos";
+				TargetAttributes = {
+					ECA70E712235766E00EF8541 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = ECA70E6D2235766E00EF8541 /* Build configuration list for PBXProject "Exercicio_biblioteca" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECA70E692235766E00EF8541;
+			productRefGroup = ECA70E732235766E00EF8541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA70E712235766E00EF8541 /* Exercicio_biblioteca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA70E6E2235766E00EF8541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA70E7D2235769500EF8541 /* Livro.swift in Sources */,
+				EC50CEEF2246BAB1000FD77A /* Imprimivel.swift in Sources */,
+				ECA70E8322358B1E00EF8541 /* Exemplar.swift in Sources */,
+				EC50CEEB2246B1E4000FD77A /* Publicacao.swift in Sources */,
+				EC50CEE92246B0FF000FD77A /* Revista.swift in Sources */,
+				ECA70E8922359FCD00EF8541 /* Biblioteca.swift in Sources */,
+				EC50CEE522469F48000FD77A /* Catalogo.swift in Sources */,
+				ECA70E8122358A3300EF8541 /* SocioVip.swift in Sources */,
+				ECA70E762235766E00EF8541 /* main.swift in Sources */,
+				EC50CEE72246AF2D000FD77A /* Artigo.swift in Sources */,
+				ECA70E8722359EEE00EF8541 /* Emprestimo.swift in Sources */,
+				ECA70E7F2235773700EF8541 /* Socio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECA70E772235766E00EF8541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECA70E782235766E00EF8541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ECA70E7A2235766E00EF8541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		ECA70E7B2235766E00EF8541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA70E6D2235766E00EF8541 /* Build configuration list for PBXProject "Exercicio_biblioteca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA70E772235766E00EF8541 /* Debug */,
+				ECA70E782235766E00EF8541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA70E792235766E00EF8541 /* Build configuration list for PBXNativeTarget "Exercicio_biblioteca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA70E7A2235766E00EF8541 /* Debug */,
+				ECA70E7B2235766E00EF8541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA70E6A2235766E00EF8541 /* Project object */;
+}
